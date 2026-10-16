@@ -1,0 +1,33 @@
+
+
+import styles from "./Home.module.css";
+import wallpaper from "../../assets/wallpaper1.jpg";
+
+function Home() {
+    return (
+        <main className={styles.home}>
+            <img src={wallpaper} alt="" className={styles.image} />
+            <div className={styles.content}>
+                <h1>hola</h1>
+                <p>Pensamiento Hereje pretende funcionar como plataforma y asociación para un tipo muy particular de herejes, digamos, _verdaderos herejes_. No nos basta con adoptar posturas "blasfemas" en relación a la religión, como si sacar a Dios de la ecuación fuera pecado suficiente, paradójicamente hoy la voluntad de Dios se mueve más fuerte entre aquellos quienes lo rechazan; por eso hoy, en un contexto donde la influencia religiosa está poniendo sus pies en el cajón, la verdadera herejía no está en una discusión metafísica, sino en una discusión de nuestros valores terrenales.
+
+                    Por eso, si bien es prioridad dar un espacio amplio para interpretar el mundo, partimos de la exaltación de ciertos valores fundacionales; valores que, por las convenciones sociales modernas, pueden ser considerados impuros, desviados o incluso malvados. Naturalmente, no renegamos de estas etiquetas y las aceptamos con una sonrisa irónica, no porque aceptemos la carga peyorativa que hay en ellas, sino como un acto de orgullo y declaración de intenciones: no buscamos agradar, ni ser aprobados por el zombie de pensamiento inercial promedio.
+
+                    Lo que opinan las masas no es necesariamente cierto, eso no es ninguna verdad revelada; pero nosotros vamos un paso más allá: lo que beneficia a las masas -o lo que estas crean que les beneficia- no es necesariamente bueno. Al contrario, el fortalecimiento de la vida natural siempre ha seguido criterios de selección, y la posterior elevación artificial del ser humano no debe dejar de funcionar así: son los más capaces, disciplinados y espiritualmente nobles quienes traen la buena fortuna y el verdadero _progreso_ -más allá de la forma en que hoy su concepción se ha desvirtuado-, por eso uno de los tan demonizados valores que nosotros los herejes elevamos con orgullo es el mérito, y la aplicación de criterios meritocráticos. Así mismo, el humilde reconocimiento de nuestros superiores -e inferiores- de cara a elevar nuestra raza y su verdadero progreso.
+
+                    Abrazamos la metáfora de la oscuridad porque creemos que durante miles de años se han estado iluminando caminos del delirio y la muerte; llámese a estos ignorancia, dogmatismo, superstición, pensamiento mágico, religión, moral, metafísica... en la oscuridad uno se siente perdido, pero más perdido está aquel que cree haber encontrado la luz cuando se dirige al precipicio.
+                    Alentamos a que, partiendo de la oscuridad, cada hereje sea el arquitecto de sus propias luces y sombras; del mismo modo, que sepa tener la humildad epistémica de callar sobre aquello de lo que no puede hablar.
+
+                    Aunque no alentamos la discriminación por raza, nacionalidad, etnia o inteligencia, creemos que existen ciertos rasgos psicológicos que más valen mantenerlos alejados, como también existen ciertos otros con los que es fructífero rodearse. Malditos sean los de naturaleza emocional -o irracional-, tanto como así el pópulo -y nosotros- despreciamos a los vanidosos y mitómanos; aquel cuyo carruaje se permita ser impulsado por el sentimiento es también aquel cuya _verdad_ menos suele valer, es quien más luces edifica en los caminos hacia el precipicio. La inteligencia no sirve de nada, o peor aún, resulta nociva, cuando su portador es de este tipo psicológico; quien pone su don al servicio de edificar grandes castillos de mentira es un atrasador serial del progreso, salvo cuando los construye deliberadamente para favorecerlo.
+
+                    Por otro lado, benditos sean aquellos de espíritu epistemológicamente ascético, porque incluso un valor tan destructivo y bajo como el ascetismo puede encontrar su brillo ahí donde estreche sus manos junto a la honestidad. Aquellos cuya estructura psicológica les haga tolerantes al _absurdo_, al fracaso y la equivocación, aquellos que no conviertan el estudio descriptivo en identidad, ni duden un solo segundo en despojarse de aquello que se ha probado falso, o en otras ocasiones, infalsable.
+
+                    Pero que nadie confunda nuestro ascetismo epistemológico con una renuncia a las grandes indulgencias de la vida. Al contrario, ¡celebramos el deseo, la ambición, la carne y cuantos placeres esta existencia tenga para ofrecernos! No pediremos perdón por nuestros apetitos, ni pretenderemos disimular aquello que el pudor ajeno ha tachado de impuro. Así mismo, abrazamos el hedonismo, pero... ¡qué poco sabe el hedonista promedio de los verdaderos frutos de la vida! Aquel que confunde el placer con la búsqueda desesperada de estímulos pasajeros, que apenas consigue arrancarle unos instantes de goce a una existencia que le resulta tortuosa, no ha hecho más que mendigar las migajas del banquete. Elevados hedonistas son, por el contrario, aquellos espíritus capaces de hacer de su propia existencia su mayor indulgencia; aquellos para quienes sus pasiones, sus conquistas, sus afectos y hasta sus desgracias constituyen una vida digna de ser amada. El verdadero hedonismo no trata de encontrar placenteros escapes de la realidad, sino en conquistar una realidad de la cual jamás se desearía escapar, he ahí el verdadero fruto del placer.
+
+                    ¡Bienvenidos a este rincón oscuro, de la luz brilla más que en cualquier lado!</p>
+            </div>
+        </main>
+    );
+};
+
+export default Home;

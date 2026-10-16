@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ocultamos la barra nativa; ScrollBar dibuja una barra superpuesta sin ocupar ancho. */
+html {
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: var(--color-background);
+    background-image:
+        linear-gradient(rgb(0 0 0 / 40%), rgb(0 0 0 / 40%)),
+        url("../assets/broken-noise.png");
+    background-repeat: repeat;
+    color: var(--color-text);
+    font-family: var(--font-primary);
+    font-weight: 400;
+    padding: 0px 5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-style: normal;
+}

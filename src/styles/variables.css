@@ -1,0 +1,25 @@
+:root {
+    /* Colores */
+    --color-background: #090909;
+    --color-panel: #111111;
+    --color-surface: #1c1c1c;
+    --color-red-light: #c00000;
+    --color-red-dark: #730000;
+    --color-text: #ffffff;
+    --color-text-muted: #999999;
+    --color-border: #333333;
+
+    /* Tipografía */
+    /* Texto común: párrafos y artículos. */
+    --font-primary: "inter-variable", Arial, sans-serif;
+    /* Titulares. */
+    --font-heading: "hardcover-vf", Georgia, serif;
+
+    /* Espaciados */
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+
+    /* Diseño */
+    --container-width: 1200px;
+}
