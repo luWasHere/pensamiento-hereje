@@ -13,7 +13,7 @@
     /* Texto común: párrafos y artículos. */
     --font-primary: "inter-variable", Arial, sans-serif;
     /* Titulares. */
-    --font-heading: "hardcover-vf", Georgia, serif;
+    --font-heading: "kepler-std", Georgia, serif;
 
     /* Espaciados */
     --spacing-sm: 8px;
